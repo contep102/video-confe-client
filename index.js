@@ -23,7 +23,7 @@ const io = new Server(httpServer, {
   cors: {
     origin:
       process.env.NODE_ENV === "production"
-        ? "https://video-conferencing-webapp.vercel.app"
+        ? "https://video-confe-server.vercel.app"
         : "http://localhost:3000",
   },
 });
